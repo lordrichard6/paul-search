@@ -30,7 +30,7 @@ export default function Home() {
         </div>
       </header>
       {/* Body */}
-      <form className='flex flex-col items-center mt-44 flex-grow'>
+      <form className="flex flex-col items-center mt-40 flex-grow">
         <Image
           src="https://i.ibb.co/9qyfqYH/coollogo-com-9682054.png"
           height={100}
@@ -40,6 +40,10 @@ export default function Home() {
           <SearchIcon className="h-5 mr-3 text-gray-500" />
           <input type="text" className="focus:outline-none flex-grow" />
           <MicrophoneIcon className="h-5 mr-3 text-gray-500" />
+        </div>
+        <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
+          <button className="btn">Paul Search</button>
+          <button className="btn">Try Something</button>
         </div>
       </form>
       {/* Footer */}
