@@ -4,10 +4,11 @@ import Image from "next/image";
 
 import Head from "next/head";
 import Avatar from "../components/Avatar";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center h-screen">
       <Head>
         <title>Paul's Engine</title>
         <link rel="icon" href="/favicon.ico" />
@@ -30,7 +31,7 @@ export default function Home() {
         </div>
       </header>
       {/* Body */}
-      <form className="flex flex-col items-center mt-40 flex-grow">
+      <form className="flex flex-col items-center mt-10 flex-grow w-4/5">
         <Image
           src="https://i.ibb.co/9qyfqYH/coollogo-com-9682054.png"
           height={100}
@@ -47,6 +48,7 @@ export default function Home() {
         </div>
       </form>
       {/* Footer */}
+      <Footer />
     </div>
   );
 }
