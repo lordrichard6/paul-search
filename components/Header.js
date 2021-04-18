@@ -39,8 +39,8 @@ const Header = () => {
             onClick={() => (searchInputRef.current.value = "")}
             className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"
           />
-          <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-blue-500 border-l-2 pl-4 border-gray-300" />
-          <SearchIcon className="h-6 text-blue-500 hidden sm:inline-flex" />
+          <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-green-500 border-l-2 pl-4 border-gray-300" />
+          <SearchIcon className="h-6 text-green-500 hidden sm:inline-flex" />
           <button hidden type="submit" onClick={search}>
             Search
           </button>
